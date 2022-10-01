@@ -763,7 +763,7 @@ background-position: top;
       .header-info{
         display: block;
         h1{
-          max-width: 150px;
+          max-width: 195px;
           font-size: 40px;
           line-height: 35px;
     margin-top: 40%;
@@ -822,7 +822,10 @@ background-position: top;
           }
         }
         .vintage{
+          background-attachment: unset;
+          background-position: center center;
          padding-bottom: 150px;
+
           h2{
             font-size: 30px;
           }
@@ -869,9 +872,12 @@ background-position: top;
           }
         }
         footer{
+     background-attachment: unset;
+            background-position: center;
           h2{
             font-size: 25px;
             text-align:center;
+          
          
           }
           .footer-body{
